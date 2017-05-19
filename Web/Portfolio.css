@@ -1,0 +1,442 @@
+@charset "utf-8";
+.Header {
+	background-image: url(Image/Header_Bg.png);
+	height: 98px;
+	width: 940px;
+	margin-left: 33px;
+	position: relative;
+}
+#Menu ul {
+	margin-top: 10px;
+	display: inline;
+}
+#Menu ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+#Menu ul li a {
+	display: inline;
+	margin-right: 20px;
+	font-weight: bold;
+	color: #693;
+	text-decoration: none;
+	text-transform: none;
+	line-height: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+	font-style: normal;
+	padding-top: 10px;
+}
+#Wrapper div #Service #apNavigator {
+	position: absolute;
+	left: 1px;
+	top: 44px;
+	height: 170px;
+	width: 192px;
+}
+#Wrapper div #Blog #apNavigatorBlog {
+	position: absolute;
+	left: -4px;
+	top: 54px;
+	width: 192px;
+	height: 213px;
+}
+
+
+#Service #apNavigator ul {
+	width: 180px;
+	margin: 0px;
+	padding: 0px;
+}
+#Service #apNavigator ul li {
+	background-image: url(Image/block_Navigator.png);
+	height: 32px;
+	width: 170px;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	display: block;
+	list-style-type: none;
+}
+#Service #apNavigator ul li a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	font-size: small;
+	font-style: normal;
+}
+
+
+
+
+#Menu ul li a:hover {
+	
+	color: #003;
+
+}
+.Menu {
+	background-image: url(Image/Menu_BG.png);
+	height: 41px;
+	width: 940px;
+	margin-left: 33px;
+}
+.Content
+{
+	background-image: url(Image/Feature_Bg.png);
+	height: 461px;
+	width: 1001px;
+	margin-left: 11px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.ContentService {
+	
+	height: 440px;
+	width: 940px;
+	margin-left: 33px;
+	position: relative;
+	
+	}
+.ServiceTab{
+	position:absolute;
+	background-image: url(Image/Services_BB.png);
+	width: 190px;
+	height:52px;
+	
+	}
+#Blog #apNavigatorBlog ul {
+	margin: 0px;
+	padding: 0px;
+
+}
+#Blog #apNavigatorBlog ul li {
+	height: 32px;
+	width: 170px;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	display: block;
+	list-style-type: none;
+	top: -95px;
+	left: 70px;
+	background: url(Image/block_Navigator.png);
+}
+#Blog #apNavigatorBlog ul li a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	font-size: small;
+	font-style: normal;
+}
+.ContentBlog {
+	
+	height: 370px;
+	width: 940px;
+	margin-left: 33px;
+	position: relative;
+	
+	}
+	
+	.BlogTab{
+	position: absolute;
+	background-image: url(Image/Blog_BB.png);
+	width: 190px;
+	height: 52px;
+	left: -10px;
+	top: 5px;
+	
+	}
+.AboutTab{
+	position: absolute;
+	background-image: url(Image/About_BB.png);
+	width: 190px;
+	height: 52px;
+	left: -10px;
+	top: 1px;
+	
+	}
+	.ContentAbout {
+	
+	height: 190px;
+	width: 940px;
+	margin-left: 33px;
+	position: relative;
+	
+	}
+
+
+
+.ContentContact {
+	height: 600px;
+	width: 940px;
+	margin-left: 33px;
+	position: relative;	
+	}
+	
+	.ContactTab{
+	position: absolute;
+	background-image:url(Image/Contact_BB.png);
+	width: 190px;
+	height: 52px;
+	left: -10px;
+	top: 0px;
+	
+	}
+.Footer{
+	width: 940px;
+	margin-left: 33px;
+	
+		}
+.Port{
+	position:absolute;
+	background-image:url(Image/Creative_Folio.png);
+	width:547px;
+	height:53px;
+	}
+.Plane
+{
+	background-image:url(Image/Paper_Airplane.png);
+	width: 108px;
+	height:67px;
+}
+
+.FeatureItem1
+{
+	background-image: url(Image/Feature_Item1.png);
+	position: absolute;
+	width:260px;
+	height:292px;
+}
+.FeatureItem2
+{
+	background-image: url(Image/Feature_Item2.png);
+	position: absolute;
+	width: 260px;
+	height: 292px;
+	left: 364px;
+	top: 94px;
+}
+.FeatureItem3
+{
+	background-image: url(Image/Feature_Item3.png);
+	position: absolute;
+	width: 260px;
+	height: 292px;
+	left: 655px;
+	top: 96px;
+}
+
+.Light
+{
+	background-image: url(Image/Light.png);
+	position: absolute;
+	width: 272px;
+	height: 336px;
+	z-index: 100;
+	left: 359px;
+	top: 18px;
+	
+}
+#apDiv3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #333;
+	position: absolute;
+}
+#Blog #apBlog1 p {
+	font-family: "Courier New", Courier, monospace;
+	font-size: smaller;
+}
+#Blog #apBlog2 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	position: absolute;
+	left: 597px;
+	width: 339px;
+	height: 150px;
+	top: 159px;
+}
+#Blog #apBlog2 p {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+}
+#Blog #apBlog1 strong {
+	font-family: "Times New Roman", Times, serif;
+}
+#Blog #apBlog2 strong {
+	font-family: "Times New Roman", Times, serif;
+	font-size: larger;
+}
+
+
+
+
+
+
+.ServiceItem1
+{
+	background-image: url(Image/Service_Item1.png);
+	position: absolute;
+	width: 160px;
+	height: 217px;
+	left: 220px;
+	top: 39px;
+	
+}
+.ServiceItem2
+{
+	background-image: url(Image/Service_Item2.png);
+	position: absolute;
+	width: 160px;
+	height: 217px;
+	left: 399px;
+	top: 37px;
+}
+.ServiceItem3
+{
+	background-image: url(Image/Service_Item3.png);
+	position: absolute;
+	width: 160px;
+	height: 217px;
+	left: 586px;
+	top: 37px;
+}
+.ServiceItem4
+{
+	background-image: url(Image/Service_Item4.png);
+	position: absolute;
+	width: 160px;
+	height: 217px;
+	left: 764px;
+	top: 37px;
+}
+.BlogItem1
+{
+	background-image: url(Image/Blog_item1.png);
+	position: absolute;
+	width: 340px;
+	height: 139px;
+	left: 240px;
+	top: 12px;
+	
+}
+.BlogItem2
+{
+	background-image: url(Image/Blog_item2.png);
+	position: absolute;
+	width: 340px;
+	height: 139px;
+	left: 594px;
+	top: 13px;
+	
+}
+
+.btnOrange{
+	background-image:url(Image/btn_orange.png);
+	height: 42px;
+	width: 182px;
+	background-repeat: no-repeat;
+	font-family:"Times New Roman", Times, serif;
+	Color:#963;
+	
+	font-size:large;
+
+	}
+.Btnwrap{
+	width: 182px;
+	position: absolute;
+	left: 726px;
+	top: 298px;
+	
+}
+
+.btnWhite{
+	background-image:url(Image/btn_kaki.png);
+	height: 42px;
+	width: 182px;
+	background-repeat: no-repeat;
+	font-family: "Times New Roman", Times, serif;
+	Color:#963;
+	
+	font-size:large;
+
+	}
+.Btnwrap2{
+	width: 182px;
+	position: absolute;
+	left: 380px;
+	top: 906px;
+	
+	
+}
+.Btnwrap2{
+	width: 182px;
+	position: absolute;
+	left: 560px;
+	top: 904px;
+	
+	
+}
+.Btnwrap3{
+	width: 182px;
+	position: absolute;
+	left: 579px;
+	top: 398px;
+	
+	
+	
+}
+.Btnwrap4{
+	width: 182px;
+	position: absolute;
+	left: 733px;
+	top: 320px;
+	
+	
+	
+}
+
+.AboutDetail{
+	position: absolute;
+	left: 197px;
+	top: 9px;
+	width: 690px;
+	height: 56px;
+	font: "Courier New", Courier, monospace;
+	
+	}
+.Contactform
+{
+	position: absolute;
+	}
+	
+.Name{
+	width : 200px;
+	margin-top : 10px;
+	}
+.Email{
+	width : 200px;
+	margin-top : 10px;
+}
+.Subject{
+	width : 200px;
+	margin-top : 10px;
+}
+.Message{
+	width : 500px;
+	height :200px;
+	margin-top : 10px;
+}
+.form{
+	margin-top : 10px;
+}
+.wrapper{
+	margin : auto;
+	width: 992px;
+	background-image:url(Image/Background.png);
+	background-repeat:repeat-y;
+}
